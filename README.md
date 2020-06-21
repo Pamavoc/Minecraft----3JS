@@ -1,7 +1,10 @@
 # Minecraft----THREEJS
  
+https://pamavoc-minecraft3js.netlify.app/
+ 
+ 
 <b>The why</b>
-As an Innitiation to ThreeJS, Vincent Caruso our JavaScript teacher, decided to build Minecraft with us. 
+As an Innitiation to ThreeJS & as a way to master POO, Vincent Caruso our JavaScript teacher, decided to give us a big project to build : Minecraft 
 
 <b>Concept</b>
 It’s Minecraft in your browser, generated with a noise algorithm. Depending on the level of the blocks, the texture changes.
