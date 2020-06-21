@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 
+
 /*
 import { Mesh, AmbientLight } from 'three';
 // j’importe toutes les classes en nommant la racine THREE depuis le fichier three (il est dans node_module)
