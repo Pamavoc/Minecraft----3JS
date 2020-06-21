@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-
+import Atlas1 from "./atlas1.png";
 
 /*
 import { Mesh, AmbientLight } from 'three';

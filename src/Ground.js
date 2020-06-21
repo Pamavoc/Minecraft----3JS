@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import {makeNoise2D} from 'open-simplex-noise';
 import { BufferGeometryUtils } from 'three/examples/jsm/utils/BufferGeometryUtils';
 import { MinecraftCube } from './MinecraftCube';
-
+import Atlas1 from "./atlas1.png";
 
 
 //heritage, la classe se comporte maintenant comme un groupe 3d
@@ -73,7 +73,7 @@ export class Ground extends THREE.Group {
 
         groundGeometry = BufferGeometryUtils.mergeBufferGeometries(cubes);
 
-        let texture = new THREE.TextureLoader().load('atlas1.png');
+        let texture = new THREE.TextureLoader().load(Atlas1);
         texture.magFilter = THREE.NearestFilter;
         texture.minFilter = THREE.LinearMipMapLinearFilter;
         //permet de voir les pixels de la texture

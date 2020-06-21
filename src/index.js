@@ -1,5 +1,5 @@
 import { World3D } from "./World3D";
-import img from "./atlas1.png";
+import Atlas1 from "./atlas1.png";
 
 console.log("start");
 
