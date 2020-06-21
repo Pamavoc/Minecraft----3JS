@@ -73,7 +73,7 @@ export class Ground extends THREE.Group {
 
         groundGeometry = BufferGeometryUtils.mergeBufferGeometries(cubes);
 
-        let texture = new THREE.TextureLoader().load('/src/atlas1.png');
+        let texture = new THREE.TextureLoader().load('atlas1.png');
         texture.magFilter = THREE.NearestFilter;
         texture.minFilter = THREE.LinearMipMapLinearFilter;
         //permet de voir les pixels de la texture
